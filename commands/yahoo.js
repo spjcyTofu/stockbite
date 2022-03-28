@@ -45,7 +45,7 @@ module.exports = {
             )
             await interaction.reply({embeds: [yahoo] });
         } catch {
-            await interaction.reply("There has been an error. Please use the ticker symbol instead of the company name. (e.g. AAPL/aapl instead of Apple)")
+            await interaction.reply("There has been an error. Please use the ticker symbol instead of the company name. (e.g. AAPL/aapl instead of Apple)\nNOTE: Unavailable on Weekends Until Further Notice.")
         }
 
 	},
